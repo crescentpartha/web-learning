@@ -1,0 +1,41 @@
+/** Large devices only **/
+@media (min-width: 1200px) {
+    section {
+        margin-right: 39px;
+        width: 31%;
+    }
+}
+
+/** desktop view only **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    section {
+        margin-right: 18px;
+        width: 32%;
+    }
+}
+
+/** tablet view only **/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    section.section:nth-child(4) {
+        width: 100%;
+    }
+    section {
+        margin-right: 24px;
+        background-color: #C4C3C3;
+        width: 48%;
+        float: left;
+        border: 2px solid #000;
+        margin-bottom: 10px;
+    }
+}
+
+/** mobile view only **/
+@media (max-width: 767px) {
+    section {
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+
