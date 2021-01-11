@@ -3,9 +3,15 @@
     padding:0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 body{
+    font-weight: 400;
     font-size:14px;
     color:#333;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
 }
 .area{
     width:1000px;
@@ -190,3 +196,95 @@ body{
     color: #FFF;
     font-weight: bold;
 }
+.gallery{}
+.gallery-box{
+    overflow: hidden;
+}
+.single-gallery {
+	float: left;
+	width: 235px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.single-gallery:nth-child(4), .single-gallery:nth-child(8) {
+	margin-right: 0px;
+}
+.single-gallery iframe{
+    width: 100%;
+}
+
+.contact{
+    overflow: hidden;
+    padding: 30px 0;
+}
+.contact-form {
+	float: left;
+	width: 650px;
+	margin-right: 30px;
+}
+.contact-form h4, .contact-address h4 {
+	text-transform: capitalize;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.contact-form input, .contact-form textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.contact-form input[type="submit"] {
+	width: auto;
+	padding: 10px 30px;
+	background-color: tomato;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+}
+.contact-address {
+	float: right;
+	width: 320px;
+}
+.contact-address ul{
+    list-style: none;
+}
+.contact-address ul li {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+	font-size: 20px;
+}
+.contact-address ul li:last-child {
+	border-bottom: 0;
+}
+.contact-address ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.contact-address ul li:hover, .contact-address ul li a:hover{
+    color: teal;
+    background-color: rgb(255, 240, 240);
+}
+.contact-form input:hover, .contact-form textarea:hover {
+	border: 1px solid #FF7474;
+	background-color: #F3F3F3;
+	color: black;
+}
+
+.map {
+	margin-bottom: 20px;
+}
+.map iframe {
+	width: 100%;
+	border: 3px solid #EEE;
+	height: 300px;
+}
+
+
+
+
+
+
+
