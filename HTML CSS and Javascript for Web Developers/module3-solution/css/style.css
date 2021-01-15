@@ -1,0 +1,111 @@
+body {
+	font-size: 16px;
+	color: #999999;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
+}
+nav.navbar.navbar-inverse {
+    border-radius: 0;
+}
+.navbar-header {
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-inverse {
+	background-color: #999999;
+}
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+.navbar-nav>li>a {
+    color: #000000;
+    padding: 0px 0px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.navbar-nav>li>hr {
+	border: 1px solid #000000;
+	margin: 0px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.navbar-center {
+	text-align: center;
+}
+.text-center {
+    font-size: 55px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.col-lg-12 {
+    background-color: #999999;
+    color: #000000;
+    margin: 0 5px 10px 5px;
+    padding: 8px 30px;
+}
+
+.box h1 {
+	text-align: center;
+}
+
+#myNavbar {
+	background-color: #999999;
+}
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#myNavbar {
+		background-color: #999999;
+	}
+	.navbar-header {
+    	border-radius: 0;
+    	border: 0;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#myNavbar {
+		background-color: #999999;
+	}
+	.navbar-header {
+    	border-radius: 0;
+    	border: 0;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	#myNavbar {
+		background-color: #ffffff;
+	}
+	.navbar-header {
+    	border-radius: 0;
+    	border: 0;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#myNavbar {
+	background-color: #ffffff;
+}
+}
+
+
+
+
+

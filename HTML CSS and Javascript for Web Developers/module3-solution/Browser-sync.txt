@@ -1,0 +1,7 @@
+
+To Browser-sync:
+	browser-sync start --server --directory --files "*"
+	Or
+	browser-sync start --server --directory --files "**/*"
+
+
